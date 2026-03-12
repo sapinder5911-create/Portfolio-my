@@ -5,6 +5,7 @@ import Contact from "./component/Contact"
 // import Skills from "./component/Skills"
 import Resume from "./component/Resume"
 import Nav from "./component/Nav"
+import Footer from "./component/Footer"
 
 
 
@@ -18,6 +19,7 @@ const router = createBrowserRouter(
             element: <div>
                 <Nav />
                 <Home />
+                <Footer />
                 {/* <About /> */}
                 {/* <Skills /> */}
                 {/* <Contact /> */}
@@ -29,6 +31,7 @@ const router = createBrowserRouter(
             element: <div>
                 <Nav />
                 <About />
+                <Footer/>
             </div>
         },
        
@@ -36,7 +39,8 @@ const router = createBrowserRouter(
             path: "/resume",
             element: <div>
                 <Nav />
-                <Resume/>
+                <Resume />
+                <Footer />
             </div>
         },
         {
@@ -44,6 +48,7 @@ const router = createBrowserRouter(
             element: <div>
                 <Nav />
                 <Contact />
+                <Footer />
             </div>
         },
     ]
