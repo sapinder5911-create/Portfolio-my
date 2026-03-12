@@ -1,7 +1,7 @@
 import Back from "../assets/background.jpg";
 import Insta from "../assets/instagram.png";
 import Link from "../assets/lindin2.png";
-import Gmail from "../assets/gmail.png";
+
 import { motion } from "framer-motion";
 
 function Footer() {

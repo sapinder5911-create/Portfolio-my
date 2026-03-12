@@ -20,9 +20,7 @@ const router = createBrowserRouter(
                 <Nav />
                 <Home />
                 <Footer />
-                {/* <About /> */}
-                {/* <Skills /> */}
-                {/* <Contact /> */}
+               
             </div>
         },
         

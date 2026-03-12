@@ -2,7 +2,6 @@
 
 import React from "react";
 import Back from "../assets/background.jpg";
-import Location from "../assets/Location.png";
 import { MapPin, Phone, Mail, User, Globe } from "lucide-react";
 import { useForm } from "react-hook-form";
 import { motion } from "framer-motion";

@@ -1,6 +1,6 @@
 
 
-import React from "react";
+
 import Logo from "../assets/sapinder.jpeg";
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
